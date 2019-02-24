@@ -1,0 +1,57 @@
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Ignore files with problem set
+problem_file.txt
+
+# Unignore all dirs
+!*/
+
+# Unignore Makefiles
+!Makefile
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Cmake
+*.cmake
+CMakeCache.txt
+CMakeLists.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+
