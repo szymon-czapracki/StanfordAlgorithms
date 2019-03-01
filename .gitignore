@@ -7,11 +7,11 @@
 # Ignore files with problem set
 problem_file.txt
 
+# Ignore Makefile
+Makefile
+
 # Unignore all dirs
 !*/
-
-# Unignore Makefiles
-!Makefile
 
 # Prerequisites
 *.d
